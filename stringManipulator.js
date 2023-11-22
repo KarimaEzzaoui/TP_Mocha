@@ -8,8 +8,12 @@ function capitalizeWords(str) {
 }
 // Function 3: Count Vowels
 function countVowels(str) {
-  const vowels = str.match(/[aeiou]/);
-  return vowels ? vowels.length : 0;
+  const vowels = ['a', 'e', 'i', 'o', 'u'];
+  return str.toLowerCase().split('').filter(char => vowels.includes(char)).length;
 }
 
-module.exports = { reverseString, capitalizeWords, countVowels }; 
+module.exports = {
+  reverseString,
+  capitalizeWords,
+  countVowels,
+};
