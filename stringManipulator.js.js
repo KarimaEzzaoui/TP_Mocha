@@ -12,4 +12,4 @@ function countVowels(str) {
   return vowels ? vowels.length : 0;
 }
 
-module.exports = { reverseString, capitalizeWords, countVowels };
+module.exports = { reverseString, capitalizeWords, countVowels }; 

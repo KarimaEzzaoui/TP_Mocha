@@ -23,4 +23,4 @@ describe('Test of string manipulator', function() {
     assert.equal(countVowels('alone'), 3);
   });
 
-});
+}); 
